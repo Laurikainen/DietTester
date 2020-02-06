@@ -21,7 +21,6 @@ export class ShoppingList extends React.Component {
                     </Media.Body>
                 </Media>
                 <br/>
-
                 <Container>
                     <hr/>
                     <Row>
@@ -308,12 +307,12 @@ export class ShoppingList extends React.Component {
                     <hr/>
                     <Row>
                         <Col sm>
-                            <Accordion defaultActiveKey="0">
+                            <Accordion defaultActiveKey="1">
                                 <Card>
                                     <Accordion.Toggle as={Card.Header} variant="link" eventKey="1">
                                         Fruits
                                     </Accordion.Toggle>
-                                    <Accordion.Collapse eventKey="0">
+                                    <Accordion.Collapse eventKey="1">
                                         <Card.Body>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
@@ -378,12 +377,12 @@ export class ShoppingList extends React.Component {
                         <Col sm={2}></Col>
 
                         <Col sm>
-                            <Accordion defaultActiveKey="0">
+                            <Accordion defaultActiveKey="1">
                                 <Card>
                                     <Accordion.Toggle as={Card.Header} variant="link" eventKey="1">
                                         Beans & Nuts
                                     </Accordion.Toggle>
-                                    <Accordion.Collapse eventKey="0">
+                                    <Accordion.Collapse eventKey="1">
                                         <Card.Body>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
@@ -462,7 +461,7 @@ export class ShoppingList extends React.Component {
                     <Row>
                         <Col/>
                         <Col>
-                            <Button style={{width: '50vh'}} variant="outline-info" size="lg" variant="outline-warning"
+                            <Button style={{width: '50vh'}} variant="outline-info" size="lg" variant="outline-success"
                                     disabled>Send to Phone</Button>
                         </Col>
                         <Col>
