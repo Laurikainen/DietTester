@@ -460,7 +460,7 @@ export class ShoppingList extends React.Component {
                     <hr/>
                     <br/>
                     <Row>
-                        <Col></Col>
+                        <Col/>
                         <Col>
                             <Button style={{width: '50vh'}} variant="outline-info" size="lg" variant="outline-warning"
                                     disabled>Send to Phone</Button>

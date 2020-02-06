@@ -17,7 +17,7 @@ export class DietPlan extends React.Component {
                     <Alert variant="success">
                         Diet plan goes here
                     </Alert>
-                    <Button href="/logged-in-home" variant="outline-info" size="lg" block>Back</Button>
+                    <Button href="/logged-in-home" variant="outline-success" size="lg" block>Back</Button>
                 </div>
             </div>
         )
