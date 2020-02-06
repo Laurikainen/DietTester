@@ -96,7 +96,7 @@ export class Recipe1 extends React.Component {
                                 After blending, transfer back to pot, turn to medium low heat and add in oregano,
                                 vegetarian broth and salt and pepper to taste. From there you can add in any
                                 additional
-                                add-ons you want (as listed in the ingredients). Allow tomato soup to simmer 10
+                                add-ons you want. Allow tomato soup to simmer 10
                                 minutes
                                 before serving. Serves 4.
                             </Card.Body>
