@@ -8,6 +8,7 @@ import Form from "react-bootstrap/Form";
 import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
 
 import Breakfast1 from "../resources/breakfast1.png"
+import Strog from "../resources/lentil-stroganoff.jpg"
 import Breakfast2 from "../resources/breakfast2.png"
 import Breakfast3 from "../resources/breakfast3.png"
 import Breakfast4 from "../resources/breakfast4.png"
@@ -49,6 +50,8 @@ export class Menu extends React.Component {
         return (
             <div>
                 <NavBarLoggedIn/>
+                <p>
+                </p>
                 <h1>7-Day meal plan</h1>
                 <Card border="success" style={{ width: '1070px', maxWidth: '1070px', margin: 'auto'}}>
                     <Card.Body>
@@ -58,7 +61,6 @@ export class Menu extends React.Component {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-
                 <Carousel
                     additionalTransfrom={0}
                     arrows
@@ -192,10 +194,10 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Lentil stroganoff (Oil-free, GF)</Card.Title>
+                                                        <Card.Title>Vegan sabich sandwich</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Breakfast1} roundedCircle />
+                                                        <Image style={{width: '110px', height: '110px'}} src={Lunch2} roundedCircle />
                                                     </Col>
                                                 </Row>
                                                 <Row>
@@ -215,10 +217,10 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Vegan sabich sandwich</Card.Title>
+                                                        <Card.Title>Lentil stroganoff (Oil-free, GF)</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Lunch2} roundedCircle />
+                                                        <Image style={{width: '110px', height: '110px'}} src={Strog} roundedCircle />
                                                     </Col>
                                                 </Row>
                                                 <Row>

@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
 
 import Breakfast1 from "../resources/breakfast1.png"
+import Strog from "../resources/lentil-stroganoff.jpg"
 import Breakfast2 from "../resources/breakfast2.png"
 import Breakfast3 from "../resources/breakfast3.png"
 import Breakfast4 from "../resources/breakfast4.png"
@@ -49,6 +50,8 @@ export class ChosenDiet extends React.Component {
         return (
             <div>
                 <NavBarLoggedIn/>
+                <p>
+                </p>
                 <h1>7-Day meal plan</h1>
                 <Carousel
                     additionalTransfrom={0}
@@ -102,7 +105,7 @@ export class ChosenDiet extends React.Component {
                             <Card.Body>
                                 <Card.Title style={{textAlign: 'center'}}>07.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Button variant="outline-success">
+                                    <Button variant="outline-success" disabled={true}>
                                     <Container>
                                         <Row>
                                             <Col style={{ width: '8rem' }}>
@@ -123,7 +126,7 @@ export class ChosenDiet extends React.Component {
                                     </Button>
                                     <p>
                                     </p>
-                                    <Button variant="outline-success">
+                                    <Button variant="outline-success" disabled={true}>
                                         <Container >
                                             <Row>
                                                 <Col style={{ width: '8rem' }}>
@@ -144,7 +147,7 @@ export class ChosenDiet extends React.Component {
                                     </Button>
                                     <p>
                                     </p>
-                                    <Button variant="outline-success">
+                                    <Button variant="outline-success" href="./recipe2">
                                         <Container>
                                             <Row>
                                                 <Col style={{ width: '8rem' }}>
@@ -172,69 +175,67 @@ export class ChosenDiet extends React.Component {
                             <Card.Body>
                                 <Card.Title style={{textAlign: 'center'}}>08.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Card border="success">
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Lentil stroganoff (Oil-free, GF)</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Breakfast1} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 45 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Vegan sabich sandwich</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Lunch2} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 45 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Chili sin carne</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Dinner2} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 15 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
+                                    <Button variant="outline-success" href="./recipe3">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Vegan sabich sandwich</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch2} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 45 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success" href="./recipe1">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Lentil stroganoff (Oil-free, GF)</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Strog} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 45 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Chili sin carne</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Dinner2} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 15 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -244,69 +245,67 @@ export class ChosenDiet extends React.Component {
                             <Card.Body>
                                 <Card.Title style={{textAlign: 'center'}}>09.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Card border="success">
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Healthy chocolate orange scones</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Breakfast2} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 50 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container >
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Homemade Roasted Tomato Basil Soup</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Lunch3} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 1h 25 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Hasselback potatoes with creamy spinach and ramps sauce</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Dinner3} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 1 h 15 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Healthy chocolate orange scones</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Breakfast2} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 50 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container >
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Homemade Roasted Tomato Basil Soup</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch3} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 1h 25 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Hasselback potatoes with creamy spinach and ramps sauce</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Dinner3} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 1 h 15 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -316,8 +315,7 @@ export class ChosenDiet extends React.Component {
                             <Card.Body>
                                 <Card.Title style={{textAlign: 'center'}}>10.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Card border="success">
-                                        <Card.Body>
+                                    <Button variant="outline-success">
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
@@ -335,50 +333,49 @@ export class ChosenDiet extends React.Component {
                                                     </Col>
                                                 </Row>
                                             </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container >
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Vegan Curry-Spiced Sweet Potato & Wild Rice Burgers</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Lunch4} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 1h 15 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Coconut curry noodle bowl</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Dinner4} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 15 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container >
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Vegan Curry-Spiced Sweet Potato & Wild Rice Burgers</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch4} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 1h 15 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Coconut curry noodle bowl</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Dinner4} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 15 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -388,69 +385,67 @@ export class ChosenDiet extends React.Component {
                             <Card.Body>
                                 <Card.Title style={{textAlign: 'center'}}>11.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Card border="success">
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Tofu Breakfast Bowl</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Breakfast4} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 15 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container >
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Gwyneth Paltrow's Singapore Rice Noodles</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Lunch5} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 25 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Ratatouille Casserole</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Dinner5} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 30 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Tofu Breakfast Bowl</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Breakfast4} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 15 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container >
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Gwyneth Paltrow's Singapore Rice Noodles</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch5} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 25 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Ratatouille Casserole</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Dinner5} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 30 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -460,69 +455,67 @@ export class ChosenDiet extends React.Component {
                             <Card.Body>
                                 <Card.Title style={{textAlign: 'center'}}>12.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Card border="success">
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Green protein power breakfast smoothie</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Breakfast5} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 10 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container >
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Quick Margherita Naan Pizza</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Lunch6} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 20 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Sweet onion tarts</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Dinner6} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 45 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Green protein power breakfast smoothie</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Breakfast5} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 10 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container >
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Quick Margherita Naan Pizza</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch6} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 20 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Sweet onion tarts</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Dinner6} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 45 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -532,8 +525,7 @@ export class ChosenDiet extends React.Component {
                             <Card.Body>
                                 <Card.Title style={{textAlign: 'center'}}>13.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Card border="success">
-                                        <Card.Body>
+                                    <Button variant="outline-success">
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
@@ -551,63 +543,54 @@ export class ChosenDiet extends React.Component {
                                                     </Col>
                                                 </Row>
                                             </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container >
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Warm Pasta Salad</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Lunch7} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 50 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
-                                    <Card border="success" style={{marginTop: '15px'}}>
-                                        <Card.Body>
-                                            <Container>
-                                                <Row>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Vegetarian meatballs)</Card.Title>
-                                                    </Col>
-                                                    <Col style={{ width: '8rem' }}>
-                                                        <Image style={{width: '110px', height: '110px'}} src={Dinner7} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
-                                                        <Card.Text>
-                                                            Time to make: 30 min
-                                                        </Card.Text>
-                                                    </Col>
-                                                </Row>
-                                            </Container>
-                                        </Card.Body>
-                                    </Card>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container >
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Warm Pasta Salad</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch7} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 50 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
+                                    <p>
+                                    </p>
+                                    <Button variant="outline-success">
+                                        <Container>
+                                            <Row>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Card.Title>Vegetarian meatballs)</Card.Title>
+                                                </Col>
+                                                <Col style={{ width: '8rem' }}>
+                                                    <Image style={{width: '110px', height: '110px'}} src={Dinner7} roundedCircle />
+                                                </Col>
+                                            </Row>
+                                            <Row>
+                                                <Col>
+                                                    <Card.Text>
+                                                        Time to make: 30 min
+                                                    </Card.Text>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                    </Button>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </div>
                 </Carousel>
-                <Card border="success" style={{ width: '1070px', maxWidth: '1070px', margin: 'auto'}}>
-                    <Card.Body>
-                        <Card.Title>Fact about being a vegan</Card.Title>
-                        <Card.Text>
-                            The fact
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
             </div>
         );
     }
