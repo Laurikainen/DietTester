@@ -71,10 +71,10 @@ export class DailySurvey extends React.Component {
                                 <h5>Additional comments or criticisms:</h5>
                             </Form.Row>
                             <Form.Row>
-                                <Form.Control size="lg" type="text" placeholder="Large text"/>
+                                <Form.Control size="lg" type="text" placeholder=""/>
                             </Form.Row>
                         </Form>
-                        <Button href="/my-diet" variant="outline-info" size="lg" className="margin-top-5vh"
+                        <Button href="/my-diet" variant="outline-success" size="lg" className="margin-top-5vh"
                                 block>Submit
                             answers</Button>
                     </div>
