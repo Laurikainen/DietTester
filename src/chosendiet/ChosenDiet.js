@@ -499,7 +499,7 @@ export class ChosenDiet extends React.Component {
                         </div>
                     </Carousel>
                     <p>
-                        <Button href="./shopping-list" variant="outline-danger" size="lg" block>Back to shopping list</Button>
+                        <Button href="./shopping-list" variant="outline-warning" size="lg" block>Back to shopping list</Button>
                     </p>
                 </div>
             </div>
