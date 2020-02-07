@@ -11,7 +11,7 @@ export class NavBar extends React.Component {
                         <Navbar.Brand href="/">Dietster</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="mr-auto">
+                            <Nav className="mr-auto mr-sm-2">
                                 <Nav.Link href="/logged-in-home">Get started</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
