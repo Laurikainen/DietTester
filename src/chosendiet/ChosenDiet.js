@@ -22,7 +22,7 @@ import Lunch5 from "../resources/lunch5.png"
 import Lunch6 from "../resources/lunch6.png"
 import Lunch7 from "../resources/lunch7.png"
 
-import Dinner1 from "../resources/dinner1.png"
+import Dinner1 from "../resources/cauliflower-wings.jpg"
 import Dinner2 from "../resources/dinner2.png"
 import Dinner3 from "../resources/dinner3.png"
 import Dinner4 from "../resources/dinner4.png"
@@ -35,6 +35,7 @@ import Image from "react-bootstrap/Image";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Button from "react-bootstrap/Button";
+import Badge from "react-bootstrap/Badge";
 
 const responsive = {
     desktop: {
@@ -103,9 +104,9 @@ export class ChosenDiet extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>07.02.2020</Card.Title>
+                                <Card.Title style={{textAlign: 'center'}}>08.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Button variant="outline-success" disabled={true}>
+                                    <Button variant="outline-success">
                                     <Container>
                                         <Row>
                                             <Col style={{ width: '8rem' }}>
@@ -118,7 +119,7 @@ export class ChosenDiet extends React.Component {
                                         <Row>
                                             <Col>
                                                 <Card.Text>
-                                                    Time to make: 45 min
+                                                    <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                 </Card.Text>
                                             </Col>
                                         </Row>
@@ -126,20 +127,20 @@ export class ChosenDiet extends React.Component {
                                     </Button>
                                     <p>
                                     </p>
-                                    <Button variant="outline-success" disabled={true}>
+                                    <Button variant="outline-success" href="./recipe2">
                                         <Container >
                                             <Row>
                                                 <Col style={{ width: '8rem' }}>
-                                                    <Card.Title>Vegan Mexican Chopped Salad with Avocado Dressing</Card.Title>
+                                                    <Card.Title>Homemade Roasted Tomato Basil Soup</Card.Title>
                                                 </Col>
                                                 <Col style={{ width: '8rem' }}>
-                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch1} roundedCircle />
+                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch3} roundedCircle />
                                                 </Col>
                                             </Row>
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 20 min
+                                                        <h5><Badge variant="success">20 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -147,11 +148,11 @@ export class ChosenDiet extends React.Component {
                                     </Button>
                                     <p>
                                     </p>
-                                    <Button variant="outline-success" href="./recipe2">
+                                    <Button variant="outline-success" href="./recipe3">
                                         <Container>
                                             <Row>
                                                 <Col style={{ width: '8rem' }}>
-                                                    <Card.Title>Tasty vegan lasagna</Card.Title>
+                                                    <Card.Title>Buffalo Cauliflower Wings With Cashew Ranch (GF)</Card.Title>
                                                 </Col>
                                                 <Col style={{ width: '8rem' }}>
                                                     <Image style={{width: '110px', height: '110px'}} src={Dinner1} roundedCircle />
@@ -160,7 +161,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 3 h
+                                                        <h5><Badge variant="success">50 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -173,9 +174,9 @@ export class ChosenDiet extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>08.02.2020</Card.Title>
+                                <Card.Title style={{textAlign: 'center'}}>09.02.2020</Card.Title>
                                 <Card.Text>
-                                    <Button variant="outline-success" href="./recipe3">
+                                    <Button variant="outline-success">
                                         <Container>
                                             <Row>
                                                 <Col style={{ width: '8rem' }}>
@@ -188,7 +189,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 45 min
+                                                        <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -209,7 +210,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 45 min
+                                                        <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -230,7 +231,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 15 min
+                                                        <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -243,7 +244,7 @@ export class ChosenDiet extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>09.02.2020</Card.Title>
+                                <Card.Title style={{textAlign: 'center'}}>10.02.2020</Card.Title>
                                 <Card.Text>
                                     <Button variant="outline-success">
                                         <Container>
@@ -258,7 +259,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 50 min
+                                                        <h5><Badge variant="success">50 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -270,16 +271,16 @@ export class ChosenDiet extends React.Component {
                                         <Container >
                                             <Row>
                                                 <Col style={{ width: '8rem' }}>
-                                                    <Card.Title>Homemade Roasted Tomato Basil Soup</Card.Title>
+                                                    <Card.Title>Vegan Mexican Chopped Salad with Avocado Dressing</Card.Title>
                                                 </Col>
                                                 <Col style={{ width: '8rem' }}>
-                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch3} roundedCircle />
+                                                    <Image style={{width: '110px', height: '110px'}} src={Lunch1} roundedCircle />
                                                 </Col>
                                             </Row>
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 1h 25 min
+                                                        <h5><Badge variant="success">85 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -300,7 +301,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 1 h 15 min
+                                                        <h5><Badge variant="success">75 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -313,7 +314,7 @@ export class ChosenDiet extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>10.02.2020</Card.Title>
+                                <Card.Title style={{textAlign: 'center'}}>11.02.2020</Card.Title>
                                 <Card.Text>
                                     <Button variant="outline-success">
                                             <Container>
@@ -328,7 +329,7 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Text>
-                                                            Time to make: 15 min
+                                                            <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
                                                     </Col>
                                                 </Row>
@@ -349,7 +350,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 1h 15 min
+                                                        <h5><Badge variant="success">75 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -370,7 +371,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 15 min
+                                                        <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -383,7 +384,7 @@ export class ChosenDiet extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>11.02.2020</Card.Title>
+                                <Card.Title style={{textAlign: 'center'}}>12.02.2020</Card.Title>
                                 <Card.Text>
                                     <Button variant="outline-success">
                                         <Container>
@@ -398,7 +399,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 15 min
+                                                        <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -419,7 +420,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 25 min
+                                                        <h5><Badge variant="success">25 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -440,7 +441,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 30 min
+                                                        <h5><Badge variant="success">30 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -453,7 +454,7 @@ export class ChosenDiet extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>12.02.2020</Card.Title>
+                                <Card.Title style={{textAlign: 'center'}}>13.02.2020</Card.Title>
                                 <Card.Text>
                                     <Button variant="outline-success">
                                         <Container>
@@ -468,7 +469,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 10 min
+                                                        <h5><Badge variant="success">10 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -489,7 +490,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 20 min
+                                                        <h5><Badge variant="success">20 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -510,7 +511,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 45 min
+                                                        <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -523,7 +524,7 @@ export class ChosenDiet extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>13.02.2020</Card.Title>
+                                <Card.Title style={{textAlign: 'center'}}>14.02.2020</Card.Title>
                                 <Card.Text>
                                     <Button variant="outline-success">
                                             <Container>
@@ -538,7 +539,7 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Text>
-                                                            Time to make: 25 min
+                                                            <h5><Badge variant="success">25 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
                                                     </Col>
                                                 </Row>
@@ -559,7 +560,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 50 min
+                                                        <h5><Badge variant="success">50 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -580,7 +581,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 30 min
+                                                        <h5><Badge variant="success">30 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
