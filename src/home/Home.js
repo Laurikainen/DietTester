@@ -37,7 +37,10 @@ export class Home extends React.Component {
                         Give your body an <span>experience</span>
                     </div>
                     <div className="sub-main-text">
-                        <br></br>
+                        Find your diet plan<br />
+                        Discover healthy recipes<br />
+                        Complete 7-day meal plans<br />
+                        Find which diet suits you the best<br /><br />
                         Ready to give it a shot?
                     </div>
                     <br/> <br/>
