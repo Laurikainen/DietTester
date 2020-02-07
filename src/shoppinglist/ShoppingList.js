@@ -22,6 +22,11 @@ export class ShoppingList extends React.Component {
                 </Media>
                 <br/>
                 <Container>
+                    <Row>
+                        <Button variant="outline-warning" size="lg" block>Send to Phone</Button>
+                    </Row>
+                </Container>
+                <Container>
                     <hr/>
                     <Row>
                         <Col sm>
@@ -453,9 +458,6 @@ export class ShoppingList extends React.Component {
                     <hr/>
                     <br/>
 
-                    <p>
-                        <Button variant="outline-warning" size="lg" block>Send to Phone</Button>
-                    </p>
                     <p>
                         <Button  href="./my-diet" variant="outline-success" size="lg" block>Confirm my 7-day meal plan</Button>
                     </p>
