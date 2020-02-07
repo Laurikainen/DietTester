@@ -53,7 +53,7 @@ export class Menu extends React.Component {
                 <NavBarLoggedIn/>
                 <p>
                 </p>
-                <h1>7-Day meal plan</h1>
+                <h1>Preview of your 7-day plan</h1>
                 <Card border="success" style={{ width: '1070px', maxWidth: '1070px', margin: 'auto'}}>
                     <Card.Body>
                         <Card.Title>Fact about being a vegan</Card.Title>
