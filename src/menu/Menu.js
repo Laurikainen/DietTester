@@ -46,8 +46,8 @@ export class Menu extends React.Component {
                     </h1>
                     <Card border="success">
                         <Card.Body>
-                            <Card.Title className="text-secondary">Fact about veganism</Card.Title>
-                            <Card.Text className="text-secondary">
+                            <Card.Title style={{ color: 'ForestGreen' }}>Fact about veganism</Card.Title>
+                            <Card.Text style={{ color: 'ForestGreen' }}>
                                 Switching to a diet centered around plants can yield significant performance advantages,
                                 providing optimal fuel, increasing blood flow, making muscles more efficient,
                                 and speeding recovery by lowering inflammation.
@@ -103,15 +103,15 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">08.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>08.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
 
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Chive waffles with maple & soy mushrooms</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Chive waffles with maple & soy mushrooms</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 45 min
                                                             </Card.Text>
                                                         </Col>
@@ -128,8 +128,8 @@ export class Menu extends React.Component {
 
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Homemade Roasted Tomato Basil Soup</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Homemade Roasted Tomato Basil Soup</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 85 min
                                                             </Card.Text>
                                                         </Col>
@@ -146,8 +146,8 @@ export class Menu extends React.Component {
 
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Buffalo Cauliflower Wings With Cashew Ranch (GF)</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Buffalo Cauliflower Wings With Cashew Ranch (GF)</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 50 min
                                                             </Card.Text>
                                                         </Col>
@@ -164,15 +164,15 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">09.02.2020</Card.Title>
-                                    <Card.Text className="text-secondary">
+                                    <Card.Title style={{ color: 'ForestGreen' }}>09.02.2020</Card.Title>
+                                    <Card.Text style={{ color: 'ForestGreen' }}>
                                         <Card border="success">
                                             <Card.Body>
 
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Vegan sabich sandwich</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Vegan sabich sandwich</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 45 min
                                                             </Card.Text>
                                                         </Col>
@@ -188,8 +188,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Lentil stroganoff (Oil-free, GF)</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Lentil stroganoff (Oil-free, GF)</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 45 min
                                                             </Card.Text>
                                                         </Col>
@@ -205,8 +205,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Chili sin carne</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Chili sin carne</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 15 min
                                                             </Card.Text>
                                                         </Col>
@@ -223,15 +223,15 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">10.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>10.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
 
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Healthy chocolate orange scones</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Healthy chocolate orange scones</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 50 min
                                                             </Card.Text>
                                                         </Col>
@@ -248,8 +248,8 @@ export class Menu extends React.Component {
 
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Vegan Mexican Chopped Salad with Avocado Dressing</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Vegan Mexican Chopped Salad with Avocado Dressing</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 85 min
                                                             </Card.Text>
                                                         </Col>
@@ -265,8 +265,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Hasselback potatoes with creamy spinach and ramps sauce</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Hasselback potatoes with creamy spinach and ramps sauce</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 75 min
                                                             </Card.Text>
                                                         </Col>
@@ -283,14 +283,14 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">11.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>11.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Lentil Banana Protein Pancakes</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Lentil Banana Protein Pancakes</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 15 min
                                                             </Card.Text>
                                                         </Col>
@@ -306,8 +306,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Vegan Curry-Spiced Sweet Potato & Wild Rice Burgers</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Vegan Curry-Spiced Sweet Potato & Wild Rice Burgers</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 75 min
                                                             </Card.Text>
                                                         </Col>
@@ -323,8 +323,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Coconut curry noodle bowl</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Coconut curry noodle bowl</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 15 min
                                                             </Card.Text>
                                                         </Col>
@@ -341,14 +341,14 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">12.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>12.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Tofu Breakfast Bowl</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Tofu Breakfast Bowl</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 15 min
                                                             </Card.Text>
                                                         </Col>
@@ -364,8 +364,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Gwyneth Paltrow's Singapore Rice Noodles</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Gwyneth Paltrow's Singapore Rice Noodles</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 25 min
                                                             </Card.Text>
                                                         </Col>
@@ -381,8 +381,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Ratatouille Casserole</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Ratatouille Casserole</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 30 min
                                                             </Card.Text>
                                                         </Col>
@@ -399,14 +399,14 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">13.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>13.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Green protein power breakfast smoothie</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Green protein power breakfast smoothie</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 10 min
                                                             </Card.Text>
                                                         </Col>
@@ -422,8 +422,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Quick Margherita Naan Pizza</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Quick Margherita Naan Pizza</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 20 min
                                                             </Card.Text>
                                                         </Col>
@@ -439,8 +439,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Sweet onion tarts</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Sweet onion tarts</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 45 min
                                                             </Card.Text>
                                                         </Col>
@@ -457,14 +457,14 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>14.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>14.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Coconut & banana pancakes</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Coconut & banana pancakes</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 25 min
                                                             </Card.Text>
                                                         </Col>
@@ -480,8 +480,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                     <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Warm Pasta Salad</Card.Title>
-                                                            <Card.Text className="text-secondary">
+                                                            <Card.Title style={{ color: 'ForestGreen' }}>Warm Pasta Salad</Card.Title>
+                                                            <Card.Text style={{ color: 'ForestGreen' }}>
                                                                 Time to make: 50 min
                                                             </Card.Text>
                                                         </Col>
@@ -497,8 +497,8 @@ export class Menu extends React.Component {
                                             <Card.Body>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Title className="text-secondary">Vegetarian meatballs</Card.Title>
-                                                        <Card.Text className="text-secondary">
+                                                        <Card.Title style={{ color: 'ForestGreen' }}>Vegetarian meatballs</Card.Title>
+                                                        <Card.Text style={{ color: 'ForestGreen' }}>
                                                             Time to make: 30 min
                                                         </Card.Text>
                                                     </Col>
