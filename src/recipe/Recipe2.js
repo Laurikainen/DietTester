@@ -4,14 +4,13 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
 import Toma from "../resources/tomatosoup.jpg"
-import {Col, Container, Image} from "react-bootstrap";
-import Row from "react-bootstrap/Row";
+import {CardGroup, Container} from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";
 
 export class Recipe1 extends React.Component {
 
     renderListElements(elements) {
-        const listElements = elements.map((el) => <li>{el}</li>);
+        const listElements = elements.map((el) => <li className="list">{el}</li>);
         return (
             <ul>
                 {listElements}
@@ -31,33 +30,33 @@ export class Recipe1 extends React.Component {
                     </h1>
 
                     <Container>
-                        <Row>
-                            <Col>
-                                <Card border="success">
-                                    <Card.Body>
-                                        <Card.Title>Ingredients</Card.Title>
-                                        <h5 className="grey">For the roasted tomatoes</h5>
-                                        {this.renderListElements(["3 pounds roma or plum tomatoes, cut in half",
-                                            "8 cloves garlic, peeled",
-                                            "3 tablespoons olive oil",
-                                            "Freshly ground salt and pepper"])
-                                        }
-                                        <h5 className="grey">For the caramelized onions</h5>
-                                        {this.renderListElements(["½ tablespoon olive oil",
-                                            "2 yellow onions, thinly sliced"])
-                                        }
-                                        <h5 className="grey">Additions to the soup</h5>
-                                        {this.renderListElements(["½ cup packed basil leaves", "½ teaspoon dried oregano",
-                                            "1-2 cups water or vegan broth, depending on how thick you want the soup",
-                                            "Freshly ground salt and pepper, to taste"])
-                                        }
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col>
-                                <Image id="right" src={Toma} roundedCircle fluid/>
-                            </Col>
-                        </Row>
+                        <CardGroup>
+                            <Card border="success">
+                                <Card.Body>
+                                    <Card.Title>Ingredients</Card.Title>
+                                    <h5 className="grey">For the roasted tomatoes</h5>
+                                    {this.renderListElements(["3 pounds roma or plum tomatoes, cut in half",
+                                        "8 cloves garlic, peeled",
+                                        "3 tablespoons olive oil",
+                                        "Freshly ground salt and pepper"])
+                                    }
+                                    <h5 className="grey">For the caramelized onions</h5>
+                                    {this.renderListElements(["½ tablespoon olive oil",
+                                        "2 yellow onions, thinly sliced"])
+                                    }
+                                    <h5 className="grey">Additions to the soup</h5>
+                                    {this.renderListElements(["½ cup packed basil leaves", "½ teaspoon dried oregano",
+                                        "1-2 cups water or vegan broth, depending on how thick you want the soup",
+                                        "Freshly ground salt and pepper, to taste"])
+                                    }
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img className="recipe-image" src={Toma} fluid/>
+                                <Card.ImgOverlay>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </CardGroup>
                         <br/>
 
                         <Card border="info">
