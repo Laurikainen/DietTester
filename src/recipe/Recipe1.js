@@ -41,7 +41,7 @@ export class Recipe1 extends React.Component {
                                     }
                                 </Card.Body>
                             </Card>
-                            <Card>
+                            <Card border="success">
                                 <Card.Img className="recipe-image" src={Strog}/>
                                 <Card.ImgOverlay>
                                     <Card.Title/>
@@ -52,7 +52,7 @@ export class Recipe1 extends React.Component {
                         </CardGroup>
                         <br/>
 
-                        <Card border="info">
+                        <Card border="success">
                             <Card.Body>
                                 <Card.Title>Instructions</Card.Title>
                                 Cover the lentils with water and add chopped onion. Bring to a boil. Let it boil for
