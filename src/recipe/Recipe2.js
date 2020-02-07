@@ -51,7 +51,7 @@ export class Recipe1 extends React.Component {
                                     }
                                 </Card.Body>
                             </Card>
-                            <Card>
+                            <Card border="success">
                                 <Card.Img className="recipe-image" src={Toma} fluid/>
                                 <Card.ImgOverlay>
                                 </Card.ImgOverlay>
@@ -59,7 +59,7 @@ export class Recipe1 extends React.Component {
                         </CardGroup>
                         <br/>
 
-                        <Card border="info">
+                        <Card border="success">
                             <Card.Body>
                                 <Card.Title>Instructions</Card.Title>
                                 Preheat oven to 200°C. Line a large baking sheet with parchment paper. Place
