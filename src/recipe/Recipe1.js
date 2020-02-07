@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
 import Strog from "../resources/lentil-stroganoff.jpg"
-import {CardGroup, Col, Container, Image} from "react-bootstrap";
+import {CardGroup, Container} from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";
 
 export class Recipe1 extends React.Component {

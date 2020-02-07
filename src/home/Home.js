@@ -37,19 +37,20 @@ export class Home extends React.Component {
                         Give your body an <span>experience</span>
                     </div>
                     <div className="sub-main-text">
-                        Find your diet plan<br />
-                        Discover healthy recipes<br />
-                        Complete 7-day meal plans<br />
-                        Find which diet suits you the best<br /><br />
+                        Find your diet plan<br/>
+                        Discover healthy recipes<br/>
+                        Complete 7-day meal plans<br/>
+                        Find which diet suits you the best<br/><br/>
                         Ready to give it a shot?
                     </div>
                     <br/> <br/>
                     <div className="call-to-action">
-                        <Button href='./logged-in-home' size='lg' variant="outline-success">GET STARTED WITH YOUR FREE 7-DAY PLAN</Button>
+                        <Button href='./logged-in-home' size='lg' variant="outline-success">GET STARTED WITH YOUR FREE
+                            7-DAY PLAN</Button>
                     </div>
                     <br/><br/>
                     <div className="call-to-action-text">
-                        JOIN Diet Tester & experience the good aspects of many different diets! SIGN up to START!
+                        JOIN Dietster & experience the good aspects of many different diets! SIGN up to START!
                     </div>
                 </section>
                 <br/><br/>
