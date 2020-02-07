@@ -48,7 +48,7 @@ export class Recipe1 extends React.Component {
                                     }
                                 </Card.Body>
                             </Card>
-                            <Card>
+                            <Card border="success">
                                 <Card.Img className="recipe-image" src={Caul} fluid/>
                                 <Card.ImgOverlay>
                                 </Card.ImgOverlay>
@@ -56,7 +56,7 @@ export class Recipe1 extends React.Component {
                         </CardGroup>
                         <br/>
 
-                        <Card border="info">
+                        <Card border="success">
                             <Card.Body>
                                 <Card.Title>Instructions</Card.Title>
                                 Pre-heat oven to 230°C.
