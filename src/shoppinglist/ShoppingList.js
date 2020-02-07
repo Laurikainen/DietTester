@@ -36,61 +36,61 @@ export class ShoppingList extends React.Component {
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Tomatoes"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">10 Medium Tomatoes</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">3 Medium Tomatoes</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Tomatoes"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">5 cans of Plum tomatoes (400g each)</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm"> 1 tin of Plum tomatoes (400g)</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Tomatoes"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">400g Cherry tomatoes</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">200g Cherry tomatoes</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Soybeans"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">Tomato paste</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">170g of Tomato paste</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Potatoes"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">Potatoes</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">4 Potatoes</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Mushrooms"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">Carrots</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">Several Carrots</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Mushrooms"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">Cucumbers</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">2 Cucumbers</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Soybeans"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">Bell peppers</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">2 Bell peppers</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Soybeans"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">Cauliflower florets</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">1 small Cauliflower floret</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Soybeans"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">Eggplant</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">1 small Eggplant</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
@@ -474,7 +474,7 @@ export class ShoppingList extends React.Component {
                         <Col/>
                         <Col>
                             <Button style={{width: '50vh'}} variant="outline-info" size="lg" variant="outline-success"
-                                    disabled>Send to Phone</Button>
+                                    block>Send to Phone</Button>
                         </Col>
                         <Col>
                             <Button style={{width: '50vh'}} href="./my-diet" variant="outline-info" size="lg"
