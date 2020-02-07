@@ -35,7 +35,6 @@ import Dinner7 from "../resources/dinner7.png"
 import Image from "react-bootstrap/Image";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Badge from "react-bootstrap/Badge";
 
 export class Menu extends React.Component {
     render() {
@@ -44,7 +43,7 @@ export class Menu extends React.Component {
                 <NavBarLoggedIn/>
                 <div id="menu">
                     <h1 className="menu-title">
-                        7-Day meal plan
+                        7-Day meal plan preview
                     </h1>
                     <Card border="success">
                         <Card.Body>
@@ -223,7 +222,7 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">13.02.2020</Card.Title>
+                                    <Card.Title className="text-secondary">10.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
@@ -283,7 +282,7 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">10.02.2020</Card.Title>
+                                    <Card.Title className="text-secondary">11.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
@@ -341,7 +340,7 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">11.02.2020</Card.Title>
+                                    <Card.Title className="text-secondary">12.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
@@ -399,7 +398,7 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title className="text-secondary">12.02.2020</Card.Title>
+                                    <Card.Title className="text-secondary">13.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
@@ -457,7 +456,7 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>13.02.2020</Card.Title>
+                                    <Card.Title>14.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
@@ -515,9 +514,7 @@ export class Menu extends React.Component {
                     </Carousel>
 
                     <p>
-                        <h3><Badge variant="success">
-                            <Form.Check type="checkbox" label="Sync my meal plan with calendar"/>
-                        </Badge>{' '}</h3>
+                        <Button href="./shopping-list" variant="outline-info" size="lg" block>Sync my meal plan with calendar</Button>
                     </p>
                     <p>
                         <Button href="./shopping-list" variant="outline-success" size="lg" block>Get my shopping list</Button>
