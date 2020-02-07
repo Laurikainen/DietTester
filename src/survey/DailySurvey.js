@@ -4,74 +4,111 @@ import Form from "react-bootstrap/Form";
 import {Button} from "react-bootstrap";
 import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
 
+import { withStyles } from '@material-ui/core/styles';
+import { red, yellow, green, orange, lightGreen} from '@material-ui/core/colors';
+import Radio from '@material-ui/core/Radio';
+
+
+    const RedRadio = withStyles({
+        root: {
+        color: red[400],
+        '&$checked': {
+            color: red[600],
+        },
+        },
+        checked: {},
+    })(props => <Radio color="default" {...props} />);
+
+    const OrangeRadio = withStyles({
+        root: {
+        color: orange[400],
+        '&$checked': {
+            color: orange[600],
+        },
+        },
+        checked: {},
+    })(props => <Radio color="default" {...props} />);
+  
+    const YellowRadio = withStyles({
+        root: {
+        color: yellow[400],
+        '&$checked': {
+            color: yellow[600],
+        },
+        },
+        checked: {},
+    })(props => <Radio color="default" {...props} />);
+
+    const LightGreenRadio = withStyles({
+        root: {
+        color: lightGreen[400],
+        '&$checked': {
+            color: lightGreen[600],
+        },
+        },
+        checked: {},
+    })(props => <Radio color="default" {...props} />);
+
+
+    const GreenRadio = withStyles({
+        root: {
+        color: green[400],
+        '&$checked': {
+            color: green[600],
+        },
+        },
+        checked: {},
+    })(props => <Radio color="default" {...props} />);
+
 export class DailySurvey extends React.Component {
 
-    renderRadioButtons1() {
-        return (
-            <div key="inline-radio" className="mb-3 margin-left-2vh">
-                <Form.Check inline type="radio" name="ratingOption" id="1"/>
-                <Form.Check inline type="radio" name="ratingOption" id="2"/>
-                <Form.Check inline type="radio" name="ratingOption" id="3"/>
-                <Form.Check inline type="radio" name="ratingOption" id="4"/>
-                <Form.Check inline type="radio" name="ratingOption" id="5"/>
-                <Form.Check inline type="radio" name="ratingOption" id="6"/>
-                <Form.Check inline type="radio" name="ratingOption" id="7"/>
-                <Form.Check inline type="radio" name="ratingOption" id="8"/>
-                <Form.Check inline type="radio" name="ratingOption" id="9"/>
-                <Form.Check inline type="radio" name="ratingOption" id="10"/>
-            </div>
-        );
-    }
 
-    renderRadioButtons2() {
-        return (
-            <div key="inline-radio" className="mb-3 margin-left-2vh">
-                <Form.Check inline type="radio" name="ratingOption2" id="1"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="2"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="3"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="4"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="5"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="6"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="7"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="8"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="9"/>
-                <Form.Check inline type="radio" name="ratingOption2" id="10"/>
-            </div>
-        );
-    }
-
-    renderRadioButtons3() {
-        return (
-            <div key="inline-radio" className="mb-3 margin-left-2vh">
-                <Form.Check inline type="radio" name="ratingOption3" id="1"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="2"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="3"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="4"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="5"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="6"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="7"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="8"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="9"/>
-                <Form.Check inline type="radio" name="ratingOption3" id="10"/>
-            </div>
-        );
-    }
-
-    renderRadioButtons4() {
-        return (
-            <div key="inline-radio" className="mb-3 margin-left-2vh">
-                <Form.Check inline type="radio" name="ratingOption4" id="1"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="2"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="3"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="4"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="5"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="6"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="7"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="8"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="9"/>
-                <Form.Check inline type="radio" name="ratingOption4" id="10"/>
-            </div>
-        );
+    RadioButtons() {
+        // const [selectedValue, setSelectedValue] = React.useState('a');
+        
+        // const handleChange = event => {
+        //     setSelectedValue(event.target.value);
+        // };
+        
+        return(
+            <div>
+                <RedRadio
+                    // checked={selectedValue === 'a'}
+                    // onChange={handleChange}
+                    value="a"
+                    name="radio-button-demo"
+                    inputProps={{ 'aria-label': 'A' }}
+                />
+                <OrangeRadio
+                    // checked={selectedValue === 'b'}
+                    // onChange={handleChange}
+                    value="b"
+                    name="radio-button-demo"
+                    inputProps={{ 'aria-label': 'B' }}
+                />
+                <YellowRadio
+                    // checked={selectedValue === 'c'}
+                    // onChange={handleChange}
+                    value="c"
+                    name="radio-button-demo"
+                    inputProps={{ 'aria-label': 'C' }}
+                />
+                <LightGreenRadio
+                    // checked={selectedValue === 'd'}
+                    // onChange={handleChange}
+                    value="d"
+                    name="radio-button-demo"
+                    inputProps={{ 'aria-label': 'D' }}
+                />
+                <GreenRadio
+                    // checked={selectedValue === 'e'}
+                    // onChange={handleChange}
+                    value="e"
+                    name="radio-button-demo"
+                    inputProps={{ 'aria-label': 'E' }}
+                />
+                </div>
+        )
     }
 
     render() {
@@ -88,7 +125,7 @@ export class DailySurvey extends React.Component {
                                 <h5>How would you rate your mental wellness on the eating plan today?</h5>
                             </Form.Row>
                             <Form.Row>
-                                <p>Horrible </p>{this.renderRadioButtons1()}<p>Great</p>
+                                <p>Horrible </p>{this.RadioButtons()}<p>Great</p>
                             </Form.Row>
                             <hr/>
 
@@ -96,7 +133,7 @@ export class DailySurvey extends React.Component {
                                 <h5>How would you rate your physical wellness on the eating plan today?</h5>
                             </Form.Row>
                             <Form.Row>
-                                <p>Horrible </p>{this.renderRadioButtons2()}<p>Great</p>
+                                <p>Horrible </p>{this.RadioButtons()}<p>Great</p>
                             </Form.Row>
                             <hr/>
 
@@ -105,7 +142,7 @@ export class DailySurvey extends React.Component {
                                     enjoyment of the meals provided?</h5>
                             </Form.Row>
                             <Form.Row>
-                                <p>Horrible </p>{this.renderRadioButtons3()}<p>Great</p>
+                                <p>Horrible </p>{this.RadioButtons()}<p>Great</p>
                             </Form.Row>
                             <hr/>
 
@@ -114,7 +151,7 @@ export class DailySurvey extends React.Component {
                                     put into cooking the meals?</h5>
                             </Form.Row>
                             <Form.Row>
-                                <p>Horrible </p>{this.renderRadioButtons4()}<p>Great</p>
+                                <p>Horrible </p>{this.RadioButtons()}<p>Great</p>
                             </Form.Row>
                             <hr/>
 
