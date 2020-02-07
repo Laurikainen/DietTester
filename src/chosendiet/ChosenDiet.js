@@ -501,6 +501,9 @@ export class ChosenDiet extends React.Component {
                     <p>
                         <Button href="./shopping-list" variant="outline-warning" size="lg" block>Back to shopping list</Button>
                     </p>
+                    <p>
+                        <Button href="./daily-survey" variant="outline-success" size="lg" block>Take the daily survey</Button>
+                    </p>
                 </div>
             </div>
         );
