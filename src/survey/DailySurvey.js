@@ -6,19 +6,70 @@ import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
 
 export class DailySurvey extends React.Component {
 
-    renderRadioButtons() {
+    renderRadioButtons1() {
         return (
             <div key="inline-radio" className="mb-3 margin-left-2vh">
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
-                <Form.Check inline type="radio" id={`inline-radio-1`}/>
+                <Form.Check inline type="radio" name="ratingOption" id="1"/>
+                <Form.Check inline type="radio" name="ratingOption" id="2"/>
+                <Form.Check inline type="radio" name="ratingOption" id="3"/>
+                <Form.Check inline type="radio" name="ratingOption" id="4"/>
+                <Form.Check inline type="radio" name="ratingOption" id="5"/>
+                <Form.Check inline type="radio" name="ratingOption" id="6"/>
+                <Form.Check inline type="radio" name="ratingOption" id="7"/>
+                <Form.Check inline type="radio" name="ratingOption" id="8"/>
+                <Form.Check inline type="radio" name="ratingOption" id="9"/>
+                <Form.Check inline type="radio" name="ratingOption" id="10"/>
+            </div>
+        );
+    }
+
+    renderRadioButtons2() {
+        return (
+            <div key="inline-radio" className="mb-3 margin-left-2vh">
+                <Form.Check inline type="radio" name="ratingOption2" id="1"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="2"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="3"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="4"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="5"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="6"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="7"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="8"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="9"/>
+                <Form.Check inline type="radio" name="ratingOption2" id="10"/>
+            </div>
+        );
+    }
+
+    renderRadioButtons3() {
+        return (
+            <div key="inline-radio" className="mb-3 margin-left-2vh">
+                <Form.Check inline type="radio" name="ratingOption3" id="1"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="2"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="3"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="4"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="5"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="6"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="7"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="8"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="9"/>
+                <Form.Check inline type="radio" name="ratingOption3" id="10"/>
+            </div>
+        );
+    }
+
+    renderRadioButtons4() {
+        return (
+            <div key="inline-radio" className="mb-3 margin-left-2vh">
+                <Form.Check inline type="radio" name="ratingOption4" id="1"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="2"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="3"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="4"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="5"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="6"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="7"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="8"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="9"/>
+                <Form.Check inline type="radio" name="ratingOption4" id="10"/>
             </div>
         );
     }
@@ -29,7 +80,7 @@ export class DailySurvey extends React.Component {
                 <NavBarLoggedIn/>
                 <div id="survey">
                     <h2>
-                        Daily wellness survey
+                        Daily Wellness Survey
                     </h2>
                     <div className="margin-6vh">
                         <Form>
@@ -37,7 +88,7 @@ export class DailySurvey extends React.Component {
                                 <h5>How would you rate your mental wellness on the eating plan today?</h5>
                             </Form.Row>
                             <Form.Row>
-                                <p>Horrible </p>{this.renderRadioButtons()}<p>Great</p>
+                                <p>Horrible </p>{this.renderRadioButtons1()}<p>Great</p>
                             </Form.Row>
                             <hr/>
 
@@ -45,7 +96,7 @@ export class DailySurvey extends React.Component {
                                 <h5>How would you rate your physical wellness on the eating plan today?</h5>
                             </Form.Row>
                             <Form.Row>
-                                <p>Horrible </p>{this.renderRadioButtons()}<p>Great</p>
+                                <p>Horrible </p>{this.renderRadioButtons2()}<p>Great</p>
                             </Form.Row>
                             <hr/>
 
@@ -54,7 +105,7 @@ export class DailySurvey extends React.Component {
                                     enjoyment of the meals provided?</h5>
                             </Form.Row>
                             <Form.Row>
-                                <p>Horrible </p>{this.renderRadioButtons()}<p>Great</p>
+                                <p>Horrible </p>{this.renderRadioButtons3()}<p>Great</p>
                             </Form.Row>
                             <hr/>
 
@@ -63,7 +114,7 @@ export class DailySurvey extends React.Component {
                                     put into cooking the meals?</h5>
                             </Form.Row>
                             <Form.Row>
-                                <p>Horrible </p>{this.renderRadioButtons()}<p>Great</p>
+                                <p>Horrible </p>{this.renderRadioButtons4()}<p>Great</p>
                             </Form.Row>
                             <hr/>
 
