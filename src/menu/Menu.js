@@ -35,6 +35,7 @@ import Dinner7 from "../resources/dinner7.png"
 import Image from "react-bootstrap/Image";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import Badge from "react-bootstrap/Badge";
 
 const responsive = {
     desktop: {
@@ -644,13 +645,9 @@ export class Menu extends React.Component {
 
 
                 <p>
-                    <Container style={{width: '290px', maxWidth: '290px', margin: 'auto'}}>
-                        <Form>
-                            <Form.Group controlId="formBasicCheckbox">
-                                <Form.Check type="checkbox" label="Sync my meal plan with calendar"/>
-                            </Form.Group>
-                        </Form>
-                    </Container>
+                    <h5><Badge variant="success">
+                        <Form.Check style={{margin: 'auto'}} type="checkbox" label="Sync my meal plan with calendar"/>
+                    </Badge>{' '}</h5>
                 </p>
                 <p>
                     <Button style={{width: '400px', maxWidth: '400px', margin: 'auto'}} href="./shopping-list" variant="outline-success" size="lg" block>Get my shopping list</Button>
