@@ -36,7 +36,19 @@ export class ShoppingList extends React.Component {
                                                 <InputGroup.Prepend>
                                                     <InputGroup.Checkbox aria-label="Tomatoes"/>
                                                 </InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm">Tomatoes</InputGroup.Text>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">10 Medium Tomatoes</InputGroup.Text>
+                                            </InputGroup>
+                                            <InputGroup className="mb-3">
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Checkbox aria-label="Tomatoes"/>
+                                                </InputGroup.Prepend>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">5 cans of Plum tomatoes (400g each)</InputGroup.Text>
+                                            </InputGroup>
+                                            <InputGroup className="mb-3">
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Checkbox aria-label="Tomatoes"/>
+                                                </InputGroup.Prepend>
+                                                <InputGroup.Text id="inputGroup-sizing-sm">400g Cherry tomatoes</InputGroup.Text>
                                             </InputGroup>
                                             <InputGroup className="mb-3">
                                                 <InputGroup.Prepend>
@@ -470,6 +482,9 @@ export class ShoppingList extends React.Component {
                         </Col>
                     </Row>
                     <Row></Row>
+                    <br/>
+                    <br/>
+                    <br/>
                 </Container>
             </div>
 
