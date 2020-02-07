@@ -119,7 +119,7 @@ export class DailySurvey extends React.Component {
                             <hr/>
 
                             <Form.Row>
-                                <h5>Additional comments or criticisms:</h5>
+                                <h5>Additional comments or criticisms (optional):</h5>
                             </Form.Row>
                             <Form.Row>
                                 <Form.Control size="lg" type="text" placeholder=""/>
