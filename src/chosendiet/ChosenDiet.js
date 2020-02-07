@@ -35,6 +35,7 @@ import Image from "react-bootstrap/Image";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Button from "react-bootstrap/Button";
+import Badge from "react-bootstrap/Badge";
 
 const responsive = {
     desktop: {
@@ -118,7 +119,7 @@ export class ChosenDiet extends React.Component {
                                         <Row>
                                             <Col>
                                                 <Card.Text>
-                                                    Time to make: 45 min
+                                                    <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                 </Card.Text>
                                             </Col>
                                         </Row>
@@ -139,7 +140,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 20 min
+                                                        <h5><Badge variant="success">20 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -160,7 +161,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 3 h
+                                                        <h5><Badge variant="success">3 hours</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -188,7 +189,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 45 min
+                                                        <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -209,7 +210,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 45 min
+                                                        <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -230,7 +231,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 15 min
+                                                        <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -258,7 +259,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 50 min
+                                                        <h5><Badge variant="success">50 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -279,7 +280,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 1h 25 min
+                                                        <h5><Badge variant="success">85 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -300,7 +301,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 1 h 15 min
+                                                        <h5><Badge variant="success">75 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -328,7 +329,7 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Text>
-                                                            Time to make: 15 min
+                                                            <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
                                                     </Col>
                                                 </Row>
@@ -349,7 +350,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 1h 15 min
+                                                        <h5><Badge variant="success">75 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -370,7 +371,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 15 min
+                                                        <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -398,7 +399,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 15 min
+                                                        <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -419,7 +420,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 25 min
+                                                        <h5><Badge variant="success">25 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -440,7 +441,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 30 min
+                                                        <h5><Badge variant="success">30 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -468,7 +469,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 10 min
+                                                        <h5><Badge variant="success">10 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -489,7 +490,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 20 min
+                                                        <h5><Badge variant="success">20 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -510,7 +511,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 45 min
+                                                        <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -538,7 +539,7 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Text>
-                                                            Time to make: 25 min
+                                                            <h5><Badge variant="success">25 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
                                                     </Col>
                                                 </Row>
@@ -559,7 +560,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 50 min
+                                                        <h5><Badge variant="success">50 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
@@ -580,7 +581,7 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Text>
-                                                        Time to make: 30 min
+                                                        <h5><Badge variant="success">30 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
                                                 </Col>
                                             </Row>
