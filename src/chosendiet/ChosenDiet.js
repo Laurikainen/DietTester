@@ -106,7 +106,7 @@ export class ChosenDiet extends React.Component {
                                                     </Card.Text>
                                                 </Col>
                                                 <Col>
-                                                    <Image src={Breakfast1} roundedCircle />
+                                                    <Image className="meal-plan-img" src={Breakfast1} roundedCircle />
                                                 </Col>
                                             </Row>
                                         </Container>
@@ -123,7 +123,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Lunch3} roundedCircle />
+                                                        <Image  className="meal-plan-img"  src={Lunch3} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -140,7 +140,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Dinner1} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Dinner1} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -164,7 +164,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Lunch2} roundedCircle />
+                                                        <Image  className="meal-plan-img"  src={Lunch2} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -181,7 +181,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Strog} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Strog} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -198,7 +198,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Dinner2} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Dinner2} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -222,7 +222,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Breakfast2} roundedCircle />
+                                                        <Image className="meal-plan-img"  src={Breakfast2} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -239,7 +239,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Lunch1} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Lunch1} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -256,7 +256,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Dinner3} roundedCircle />
+                                                        <Image  className="meal-plan-img"  src={Dinner3} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -280,7 +280,7 @@ export class ChosenDiet extends React.Component {
                                                             </Card.Text>
                                                         </Col>
                                                         <Col>
-                                                            <Image src={Breakfast3} roundedCircle />
+                                                            <Image  className="meal-plan-img" src={Breakfast3} roundedCircle />
                                                         </Col>
                                                     </Row>
                                                 </Container>
@@ -297,7 +297,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Lunch4} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Lunch4} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -314,7 +314,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Dinner4} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Dinner4} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -338,7 +338,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Breakfast4} roundedCircle />
+                                                        <Image  className="meal-plan-img"  src={Breakfast4} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -355,7 +355,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Lunch5} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Lunch5} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -372,7 +372,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Dinner5} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Dinner5} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -396,7 +396,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Breakfast5} roundedCircle />
+                                                        <Image className="meal-plan-img"  src={Breakfast5} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -413,7 +413,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Lunch6} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Lunch6} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -430,7 +430,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Dinner6} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Dinner6} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -454,7 +454,7 @@ export class ChosenDiet extends React.Component {
                                                             </Card.Text>
                                                         </Col>
                                                         <Col>
-                                                            <Image src={Breakfast6} roundedCircle />
+                                                            <Image className="meal-plan-img"  src={Breakfast6} roundedCircle />
                                                         </Col>
                                                     </Row>
                                                 </Container>
@@ -471,7 +471,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Lunch7} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Lunch7} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -488,7 +488,7 @@ export class ChosenDiet extends React.Component {
                                                         </Card.Text>
                                                     </Col>
                                                     <Col>
-                                                        <Image src={Dinner7} roundedCircle />
+                                                        <Image  className="meal-plan-img" src={Dinner7} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
