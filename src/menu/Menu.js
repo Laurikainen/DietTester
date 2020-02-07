@@ -35,6 +35,7 @@ import Dinner7 from "../resources/dinner7.png"
 import Image from "react-bootstrap/Image";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import Badge from "react-bootstrap/Badge";
 
 const responsive = {
     desktop: {
@@ -56,7 +57,7 @@ export class Menu extends React.Component {
                 <Card border="success" style={{ width: '1070px', maxWidth: '1070px', margin: 'auto'}}>
                     <Card.Body>
                         <Card.Title>Fact about being a vegan</Card.Title>
-                        <Card.Text>
+                        <Card.Text className="text-secondary">
                             The fact
                         </Card.Text>
                     </Card.Body>
@@ -118,7 +119,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Chive waffles with maple & soy mushrooms</Card.Title>
+                                                        <Card.Title className="text-secondary">Chive waffles with maple & soy mushrooms</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Breakfast1} roundedCircle />
@@ -126,7 +127,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 45 min
                                                         </Card.Text>
                                                     </Col>
@@ -141,7 +142,7 @@ export class Menu extends React.Component {
                                             <Container >
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Vegan Mexican Chopped Salad with Avocado Dressing</Card.Title>
+                                                        <Card.Title className="text-secondary">Vegan Mexican Chopped Salad with Avocado Dressing</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Lunch1} roundedCircle />
@@ -149,7 +150,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 20 min
                                                         </Card.Text>
                                                     </Col>
@@ -164,7 +165,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Tasty vegan lasagna</Card.Title>
+                                                        <Card.Title className="text-secondary">Tasty vegan lasagna</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Dinner1} roundedCircle />
@@ -172,7 +173,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 3 h
                                                         </Card.Text>
                                                     </Col>
@@ -187,14 +188,14 @@ export class Menu extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>08.02.2020</Card.Title>
-                                <Card.Text>
+                                <Card.Title className="text-secondary" style={{textAlign: 'center'}}>08.02.2020</Card.Title>
+                                <Card.Text className="text-secondary">
                                     <Card border="success">
                                         <Card.Body>
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Vegan sabich sandwich</Card.Title>
+                                                        <Card.Title className="text-secondary">Vegan sabich sandwich</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Lunch2} roundedCircle />
@@ -202,7 +203,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 45 min
                                                         </Card.Text>
                                                     </Col>
@@ -217,7 +218,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Lentil stroganoff (Oil-free, GF)</Card.Title>
+                                                        <Card.Title className="text-secondary">Lentil stroganoff (Oil-free, GF)</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Strog} roundedCircle />
@@ -225,7 +226,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 45 min
                                                         </Card.Text>
                                                     </Col>
@@ -240,7 +241,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Chili sin carne</Card.Title>
+                                                        <Card.Title className="text-secondary">Chili sin carne</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Dinner2} roundedCircle />
@@ -248,7 +249,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 15 min
                                                         </Card.Text>
                                                     </Col>
@@ -263,14 +264,14 @@ export class Menu extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>09.02.2020</Card.Title>
+                                <Card.Title className="text-secondary" style={{textAlign: 'center'}}>09.02.2020</Card.Title>
                                 <Card.Text>
                                     <Card border="success">
                                         <Card.Body>
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Healthy chocolate orange scones</Card.Title>
+                                                        <Card.Title className="text-secondary">Healthy chocolate orange scones</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Breakfast2} roundedCircle />
@@ -278,7 +279,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 50 min
                                                         </Card.Text>
                                                     </Col>
@@ -293,7 +294,7 @@ export class Menu extends React.Component {
                                             <Container >
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Homemade Roasted Tomato Basil Soup</Card.Title>
+                                                        <Card.Title className="text-secondary">Homemade Roasted Tomato Basil Soup</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Lunch3} roundedCircle />
@@ -301,7 +302,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 1h 25 min
                                                         </Card.Text>
                                                     </Col>
@@ -316,7 +317,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Hasselback potatoes with creamy spinach and ramps sauce</Card.Title>
+                                                        <Card.Title className="text-secondary">Hasselback potatoes with creamy spinach and ramps sauce</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Dinner3} roundedCircle />
@@ -324,7 +325,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 1 h 15 min
                                                         </Card.Text>
                                                     </Col>
@@ -339,14 +340,14 @@ export class Menu extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>10.02.2020</Card.Title>
+                                <Card.Title className="text-secondary" style={{textAlign: 'center'}}>10.02.2020</Card.Title>
                                 <Card.Text>
                                     <Card border="success">
                                         <Card.Body>
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Lentil Banana Protein Pancakes</Card.Title>
+                                                        <Card.Title className="text-secondary">Lentil Banana Protein Pancakes</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Breakfast3} roundedCircle />
@@ -354,7 +355,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 15 min
                                                         </Card.Text>
                                                     </Col>
@@ -369,7 +370,7 @@ export class Menu extends React.Component {
                                             <Container >
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Vegan Curry-Spiced Sweet Potato & Wild Rice Burgers</Card.Title>
+                                                        <Card.Title className="text-secondary">Vegan Curry-Spiced Sweet Potato & Wild Rice Burgers</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Lunch4} roundedCircle />
@@ -377,7 +378,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 1h 15 min
                                                         </Card.Text>
                                                     </Col>
@@ -392,7 +393,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Coconut curry noodle bowl</Card.Title>
+                                                        <Card.Title className="text-secondary">Coconut curry noodle bowl</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Dinner4} roundedCircle />
@@ -400,7 +401,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 15 min
                                                         </Card.Text>
                                                     </Col>
@@ -415,14 +416,14 @@ export class Menu extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>11.02.2020</Card.Title>
+                                <Card.Title className="text-secondary" style={{textAlign: 'center'}}>11.02.2020</Card.Title>
                                 <Card.Text>
                                     <Card border="success">
                                         <Card.Body>
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Tofu Breakfast Bowl</Card.Title>
+                                                        <Card.Title className="text-secondary">Tofu Breakfast Bowl</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Breakfast4} roundedCircle />
@@ -430,7 +431,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 15 min
                                                         </Card.Text>
                                                     </Col>
@@ -445,7 +446,7 @@ export class Menu extends React.Component {
                                             <Container >
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Gwyneth Paltrow's Singapore Rice Noodles</Card.Title>
+                                                        <Card.Title className="text-secondary">Gwyneth Paltrow's Singapore Rice Noodles</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Lunch5} roundedCircle />
@@ -453,7 +454,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 25 min
                                                         </Card.Text>
                                                     </Col>
@@ -468,7 +469,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Ratatouille Casserole</Card.Title>
+                                                        <Card.Title className="text-secondary">Ratatouille Casserole</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Dinner5} roundedCircle />
@@ -476,7 +477,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 30 min
                                                         </Card.Text>
                                                     </Col>
@@ -491,14 +492,14 @@ export class Menu extends React.Component {
                     <div>
                         <Card border="success" style={{margin: '20px'}}>
                             <Card.Body>
-                                <Card.Title style={{textAlign: 'center'}}>12.02.2020</Card.Title>
+                                <Card.Title className="text-secondary" style={{textAlign: 'center'}}>12.02.2020</Card.Title>
                                 <Card.Text>
                                     <Card border="success">
                                         <Card.Body>
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Green protein power breakfast smoothie</Card.Title>
+                                                        <Card.Title className="text-secondary">Green protein power breakfast smoothie</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Breakfast5} roundedCircle />
@@ -506,7 +507,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 10 min
                                                         </Card.Text>
                                                     </Col>
@@ -521,7 +522,7 @@ export class Menu extends React.Component {
                                             <Container >
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Quick Margherita Naan Pizza</Card.Title>
+                                                        <Card.Title className="text-secondary">Quick Margherita Naan Pizza</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Lunch6} roundedCircle />
@@ -529,7 +530,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 20 min
                                                         </Card.Text>
                                                     </Col>
@@ -544,7 +545,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Sweet onion tarts</Card.Title>
+                                                        <Card.Title className="text-secondary">Sweet onion tarts</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Dinner6} roundedCircle />
@@ -552,7 +553,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 45 min
                                                         </Card.Text>
                                                     </Col>
@@ -574,7 +575,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Coconut & banana pancakes</Card.Title>
+                                                        <Card.Title className="text-secondary">Coconut & banana pancakes</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Breakfast6} roundedCircle />
@@ -582,7 +583,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 25 min
                                                         </Card.Text>
                                                     </Col>
@@ -597,7 +598,7 @@ export class Menu extends React.Component {
                                             <Container >
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Warm Pasta Salad</Card.Title>
+                                                        <Card.Title className="text-secondary">Warm Pasta Salad</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Lunch7} roundedCircle />
@@ -605,7 +606,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 50 min
                                                         </Card.Text>
                                                     </Col>
@@ -620,7 +621,7 @@ export class Menu extends React.Component {
                                             <Container>
                                                 <Row>
                                                     <Col style={{ width: '8rem' }}>
-                                                        <Card.Title>Vegetarian meatballs)</Card.Title>
+                                                        <Card.Title className="text-secondary">Vegetarian meatballs</Card.Title>
                                                     </Col>
                                                     <Col style={{ width: '8rem' }}>
                                                         <Image style={{width: '110px', height: '110px'}} src={Dinner7} roundedCircle />
@@ -628,7 +629,7 @@ export class Menu extends React.Component {
                                                 </Row>
                                                 <Row>
                                                     <Col>
-                                                        <Card.Text>
+                                                        <Card.Text className="text-secondary">
                                                             Time to make: 30 min
                                                         </Card.Text>
                                                     </Col>
@@ -644,13 +645,9 @@ export class Menu extends React.Component {
 
 
                 <p>
-                    <Container style={{width: '290px', maxWidth: '290px', margin: 'auto'}}>
-                        <Form>
-                            <Form.Group controlId="formBasicCheckbox">
-                                <Form.Check type="checkbox" label="Sync my meal plan with calendar"/>
-                            </Form.Group>
-                        </Form>
-                    </Container>
+                    <h5><Badge variant="success">
+                        <Form.Check style={{margin: 'auto'}} type="checkbox" label="Sync my meal plan with calendar"/>
+                    </Badge>{' '}</h5>
                 </p>
                 <p>
                     <Button style={{width: '400px', maxWidth: '400px', margin: 'auto'}} href="./shopping-list" variant="outline-success" size="lg" block>Get my shopping list</Button>
