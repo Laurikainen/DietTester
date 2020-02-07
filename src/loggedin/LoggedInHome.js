@@ -58,7 +58,7 @@ export class LoggedInHome extends React.Component {
                                 <hr/>
                                 <Card.Text className="text-secondary">
                                     A vegan diet totally eliminates all animal products.
-                                    Recent studies found that a plant-based diet can reduce your chances of certain
+                                    Recent studies have found that a plant-based diet can reduce your chances of certain
                                     cancers and of developing type 2 diabetes. A vegan diet can also reduce blood
                                     pressure levels and lower cholesterol!
                                 </Card.Text>

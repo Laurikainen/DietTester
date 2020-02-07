@@ -1,24 +1,28 @@
 .recipe-title {
-     margin-bottom: 2vh;
- }
+    margin-bottom: 2vh;
+}
+
+.front {
+    z-index: 100;
+}
 
 .grey {
     color: grey
 }
 
-#recipe {
-    margin: 4vh 6vh 8vh;
+.list {
+    margin-top: 3vh;
+    list-style-type: none;
+    text-align: left;
 }
 
-#right {
-    float: right;
-    /*Bad practice because I'm a bad person*/
-    margin-right: 15vh;
-    margin-top: 5vh;
-    min-height: 45vh;
-    min-width: 45vh;
-    max-height: 60%;
-    max-width: 60%;
-    object-fit: contain;
+.recipe-image {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+#recipe {
+    margin: 4vh 30vh 8vh;
     justify-content: center;
 }

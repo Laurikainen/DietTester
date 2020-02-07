@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
 
-export class NavBarLoggedIn extends React.Component {
+export class NavBarWithShoppingList extends React.Component {
     render() {
         return (
             <div>
@@ -16,6 +16,8 @@ export class NavBarLoggedIn extends React.Component {
                                 <Nav.Link href="./home">Home</Nav.Link>
                                 <Nav.Link href="/my-diet">My Plans</Nav.Link>
                                 <Nav.Link href="/logged-in-home">Food Plans</Nav.Link>
+                                <Nav.Link href="/daily-survey">Daily Survey</Nav.Link>
+                                <Nav.Link href="/shopping-list">Shopping list</Nav.Link>
                             </Nav>
                             <Nav inline>
                                 <Nav.Link inline href="/">Log Out</Nav.Link>
@@ -28,4 +30,4 @@ export class NavBarLoggedIn extends React.Component {
     }
 }
 
-export default NavBarLoggedIn;
+export default NavBarWithShoppingList;

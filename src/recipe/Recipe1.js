@@ -2,10 +2,9 @@ import * as React from "react";
 import './Recipe.css'
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
+import NavBarLoggedIn from "../navbarloggedin/NavBarWithShoppingList";
 import Strog from "../resources/lentil-stroganoff.jpg"
-import {Col, Container, Image} from "react-bootstrap";
-import Row from "react-bootstrap/Row";
+import {CardGroup, Container} from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";
 
 export class Recipe1 extends React.Component {
@@ -13,7 +12,7 @@ export class Recipe1 extends React.Component {
     renderListElements(elements) {
         const listElements = elements.map((el) => <li>{el}</li>);
         return (
-            <ul>
+            <ul className="list">
                 {listElements}
             </ul>
         );
@@ -31,26 +30,29 @@ export class Recipe1 extends React.Component {
                     </h1>
 
                     <Container>
-                        <Row>
-                            <Col>
-                                <Card border="success">
+                        <CardGroup>
+                            <Card border="success">
+                                <Card.Body>
+                                    <Card.Title>Ingredients</Card.Title>
+                                    {this.renderListElements(["1 cup / 250 g green or brown lentils (uncooked)",
+                                        "3 cups / 800 ml water", "1 onion", "2 dill pickles", "1 tsp salt", "5 Tbsp tomato sauce",
+                                        "¼ tsp ground nutmeg", "1 Tbsp paprika powder", "1 Tbsp soy sauce or tamari",
+                                        "2 Tbsp vegan cooking cream"])
+                                    }
+                                </Card.Body>
+                            </Card>
+                            <Card border="success">
+                                <Card.Img className="recipe-image" src={Strog}/>
+                                <Card.ImgOverlay>
+                                    <Card.Title/>
                                     <Card.Body>
-                                        <Card.Title>Ingredients</Card.Title>
-                                        {this.renderListElements(["1 cup / 250 g green or brown lentils (uncooked)",
-                                            "3 cups / 800 ml water", "1 onion", "2 dill pickles", "1 tsp salt", "5 Tbsp tomato sauce",
-                                            "¼ tsp ground nutmeg", "1 Tbsp paprika powder", "1 Tbsp soy sauce or tamari",
-                                            "2 Tbsp vegan cooking cream"])
-                                        }
                                     </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col>
-                                <Image id="right" src={Strog} roundedCircle fluid/>
-                            </Col>
-                        </Row>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </CardGroup>
                         <br/>
 
-                        <Card border="info">
+                        <Card border="success">
                             <Card.Body>
                                 <Card.Title>Instructions</Card.Title>
                                 Cover the lentils with water and add chopped onion. Bring to a boil. Let it boil for
