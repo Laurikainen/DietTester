@@ -515,7 +515,7 @@ export class Menu extends React.Component {
                     </Carousel>
 
                     <p>
-                        <Button href="./shopping-list" variant="outline-warning" size="lg" block>Sync my meal plan with calendar</Button>
+                        <Button href="#calendaSynced" variant="outline-warning" size="lg" block>Sync my meal plan with calendar</Button>
                     </p>
                     <p>
                         <Button href="./shopping-list" variant="outline-success" size="lg" block>Get my shopping list</Button>
