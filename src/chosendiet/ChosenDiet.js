@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './ChosenDiet.css'
 
-import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
+import NavBarLoggedIn from "../navbarloggedin/NavBarWithShoppingList";
 
 import Breakfast1 from "../resources/breakfast1.png"
 import Strog from "../resources/lentil-stroganoff.jpg"
@@ -94,7 +94,7 @@ export class ChosenDiet extends React.Component {
                         <div >
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>08.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>08.02.2020</Card.Title>
                                     <Card.Text>
                                         <Button variant="outline-success">
                                         <Container>
@@ -152,7 +152,7 @@ export class ChosenDiet extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>09.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>09.02.2020</Card.Title>
                                     <Card.Text>
                                         <Button variant="outline-success">
                                             <Container>
@@ -210,7 +210,7 @@ export class ChosenDiet extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>10.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>10.02.2020</Card.Title>
                                     <Card.Text>
                                         <Button variant="outline-success">
                                             <Container>
@@ -268,7 +268,7 @@ export class ChosenDiet extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>11.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>11.02.2020</Card.Title>
                                     <Card.Text>
                                         <Button variant="outline-success">
                                                 <Container>
@@ -326,7 +326,7 @@ export class ChosenDiet extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>12.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>12.02.2020</Card.Title>
                                     <Card.Text>
                                         <Button variant="outline-success">
                                             <Container>
@@ -384,7 +384,7 @@ export class ChosenDiet extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>13.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>13.02.2020</Card.Title>
                                     <Card.Text>
                                         <Button variant="outline-success">
                                             <Container>
@@ -442,7 +442,7 @@ export class ChosenDiet extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>14.02.2020</Card.Title>
+                                    <Card.Title style={{ color: 'ForestGreen' }}>14.02.2020</Card.Title>
                                     <Card.Text>
                                         <Button variant="outline-success">
                                                 <Container>
@@ -498,6 +498,9 @@ export class ChosenDiet extends React.Component {
                             </Card>
                         </div>
                     </Carousel>
+                    <p>
+                        <Button href="./shopping-list" variant="outline-danger" size="lg" block>Back to shopping list</Button>
+                    </p>
                 </div>
             </div>
         );

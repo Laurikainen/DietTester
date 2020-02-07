@@ -2,7 +2,7 @@ import * as React from "react";
 import './Recipe.css'
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
+import NavBarLoggedIn from "../navbarloggedin/NavBarWithShoppingList";
 import Caul from "../resources/cauliflower-wings.jpg"
 import {CardGroup, Container} from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";
@@ -48,7 +48,7 @@ export class Recipe1 extends React.Component {
                                     }
                                 </Card.Body>
                             </Card>
-                            <Card>
+                            <Card border="success">
                                 <Card.Img className="recipe-image" src={Caul} fluid/>
                                 <Card.ImgOverlay>
                                 </Card.ImgOverlay>
@@ -56,7 +56,7 @@ export class Recipe1 extends React.Component {
                         </CardGroup>
                         <br/>
 
-                        <Card border="info">
+                        <Card border="success">
                             <Card.Body>
                                 <Card.Title>Instructions</Card.Title>
                                 Pre-heat oven to 230°C.
@@ -80,7 +80,7 @@ export class Recipe1 extends React.Component {
                             </Card.Body>
                         </Card>
                         <br/>
-                        <Button href="/menu" variant="outline-success" size="lg" block>Back to diet plan</Button>
+                        <Button href="/my-diet" variant="outline-success" size="lg" block>Back to diet plan</Button>
                     </Container>
                 </div>
             </div>

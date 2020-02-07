@@ -2,7 +2,7 @@ import * as React from "react";
 import './Recipe.css'
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
+import NavBarLoggedIn from "../navbarloggedin/NavBarWithShoppingList";
 import Strog from "../resources/lentil-stroganoff.jpg"
 import {CardGroup, Container} from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";
@@ -41,7 +41,7 @@ export class Recipe1 extends React.Component {
                                     }
                                 </Card.Body>
                             </Card>
-                            <Card>
+                            <Card border="success">
                                 <Card.Img className="recipe-image" src={Strog}/>
                                 <Card.ImgOverlay>
                                     <Card.Title/>
@@ -52,7 +52,7 @@ export class Recipe1 extends React.Component {
                         </CardGroup>
                         <br/>
 
-                        <Card border="info">
+                        <Card border="success">
                             <Card.Body>
                                 <Card.Title>Instructions</Card.Title>
                                 Cover the lentils with water and add chopped onion. Bring to a boil. Let it boil for
