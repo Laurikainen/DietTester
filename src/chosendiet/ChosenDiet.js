@@ -498,11 +498,6 @@ export class ChosenDiet extends React.Component {
                             </Card>
                         </div>
                     </Carousel>
-
-                    <p>
-                        <Button href="./shopping-list" variant="outline-success" size="lg" block>Back to shopping list</Button>
-                    </p>
-
                 </div>
             </div>
         );
