@@ -12,7 +12,7 @@ export class NavBarLoggedIn extends React.Component {
                         <Navbar.Brand href="/">Dietster</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="mr-auto">
+                            <Nav>
                                 <Nav.Link href="./home">Home</Nav.Link>
                                 <Nav.Link href="/my-diet">My Plans</Nav.Link>
                                 <Nav.Link href="/logged-in-home">Food Plans</Nav.Link>
