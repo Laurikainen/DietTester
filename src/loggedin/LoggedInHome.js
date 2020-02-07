@@ -32,7 +32,7 @@ export class LoggedInHome extends React.Component {
 
                             </Card.Body>
                             <Card.Footer>
-                                <Button variant="outline-success" size="lg" disabled>Go ketogenic</Button>
+                                <Button variant="outline-success" size="lg">Go ketogenic</Button>
                             </Card.Footer>
                         </Card>
 
@@ -48,7 +48,7 @@ export class LoggedInHome extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <Button variant="outline-success" size="lg" disabled>Go vegetarian</Button>
+                                <Button variant="outline-success" size="lg">Go vegetarian</Button>
                             </Card.Footer>
                         </Card>
 
@@ -94,7 +94,7 @@ export class LoggedInHome extends React.Component {
 
                             </Card.Body>
                             <Card.Footer>
-                                <Button variant="outline-success" size="lg" disabled>Go macrobiotic</Button>
+                                <Button variant="outline-success" size="lg">Go macrobiotic</Button>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -116,7 +116,7 @@ export class LoggedInHome extends React.Component {
 
                             </Card.Body>
                             <Card.Footer>
-                                <Button variant="outline-success" size="lg" disabled>Go low sugar</Button>
+                                <Button variant="outline-success" size="lg">Go low sugar</Button>
                             </Card.Footer>
                         </Card>
                         <Card>
@@ -136,7 +136,7 @@ export class LoggedInHome extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <Button variant="outline-success" size="lg" disabled>Go paleo</Button>
+                                <Button variant="outline-success" size="lg">Go paleo</Button>
                             </Card.Footer>
                         </Card>
                     </CardDeck>

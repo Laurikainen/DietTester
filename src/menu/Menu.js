@@ -515,9 +515,9 @@ export class Menu extends React.Component {
                     </Carousel>
 
                     <p>
-                        <h5><Badge variant="success">
+                        <h3><Badge variant="success">
                             <Form.Check type="checkbox" label="Sync my meal plan with calendar"/>
-                        </Badge>{' '}</h5>
+                        </Badge>{' '}</h3>
                     </p>
                     <p>
                         <Button href="./shopping-list" variant="outline-success" size="lg" block>Get my shopping list</Button>
