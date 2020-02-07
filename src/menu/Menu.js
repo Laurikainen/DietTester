@@ -48,7 +48,7 @@ export class Menu extends React.Component {
                     </h1>
                     <Card border="success">
                         <Card.Body>
-                            <Card.Title>Fact about being a vegan</Card.Title>
+                            <Card.Title className="text-secondary">Fact about being a vegan</Card.Title>
                             <Card.Text className="text-secondary">
                                 The fact
                             </Card.Text>
@@ -103,7 +103,7 @@ export class Menu extends React.Component {
                         <div>
                             <Card border="success">
                                 <Card.Body>
-                                    <Card.Title>07.02.2020</Card.Title>
+                                    <Card.Title className="text-secondary">08.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
@@ -111,19 +111,14 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Chive waffles with maple & soy mushrooms</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 45 min
+                                                            </Card.Text>
                                                         </Col>
                                                         <Col>
                                                             <Image src={Breakfast1} roundedCircle />
                                                         </Col>
                                                     </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 45 min
-                                                            </Card.Text>
-                                                        </Col>
-                                                    </Row>
-
                                             </Card.Body>
                                         </Card>
                                         <p>
@@ -134,19 +129,14 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Homemade Roasted Tomato Basil Soup</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 85 min
+                                                            </Card.Text>
                                                         </Col>
                                                         <Col>
                                                             <Image src={Lunch3} roundedCircle />
                                                         </Col>
                                                     </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 1 h 25 min
-                                                            </Card.Text>
-                                                        </Col>
-                                                    </Row>
-
                                             </Card.Body>
                                         </Card>
                                         <p>
@@ -157,89 +147,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Buffalo Cauliflower Wings With Cashew Ranch (GF)</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Dinner1} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 50 min
                                                             </Card.Text>
                                                         </Col>
-                                                    </Row>
-
-                                            </Card.Body>
-                                        </Card>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                        <div>
-                            <Card border="success">
-                                <Card.Body>
-                                    <Card.Title className="text-secondary">08.02.2020</Card.Title>
-                                    <Card.Text className="text-secondary">
-                                        <Card border="success">
-                                            <Card.Body>
-
-                                                    <Row>
                                                         <Col>
-                                                            <Card.Title className="text-secondary">Vegan sabich sandwich</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Lunch2} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 45 min
-                                                            </Card.Text>
-                                                        </Col>
-                                                    </Row>
-
-                                            </Card.Body>
-                                        </Card>
-                                        <p>
-                                        </p>
-                                        <Card border="success">
-                                            <Card.Body>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Title className="text-secondary">Lentil stroganoff (Oil-free, GF)</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Strog} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 45 min
-                                                            </Card.Text>
-                                                        </Col>
-                                                    </Row>
-                                            </Card.Body>
-                                        </Card>
-                                        <p>
-                                        </p>
-                                        <Card border="success">
-                                            <Card.Body>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Title className="text-secondary">Chili sin carne</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Dinner2} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 15 min
-                                                            </Card.Text>
+                                                            <Image src={Dinner1} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -252,6 +165,65 @@ export class Menu extends React.Component {
                             <Card border="success">
                                 <Card.Body>
                                     <Card.Title className="text-secondary">09.02.2020</Card.Title>
+                                    <Card.Text className="text-secondary">
+                                        <Card border="success">
+                                            <Card.Body>
+
+                                                    <Row>
+                                                        <Col>
+                                                            <Card.Title className="text-secondary">Vegan sabich sandwich</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 45 min
+                                                            </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Lunch2} roundedCircle />
+                                                        </Col>
+                                                    </Row>
+                                            </Card.Body>
+                                        </Card>
+                                        <p>
+                                        </p>
+                                        <Card border="success">
+                                            <Card.Body>
+                                                    <Row>
+                                                        <Col>
+                                                            <Card.Title className="text-secondary">Lentil stroganoff (Oil-free, GF)</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 45 min
+                                                            </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Strog} roundedCircle />
+                                                        </Col>
+                                                    </Row>
+                                            </Card.Body>
+                                        </Card>
+                                        <p>
+                                        </p>
+                                        <Card border="success">
+                                            <Card.Body>
+                                                    <Row>
+                                                        <Col>
+                                                            <Card.Title className="text-secondary">Chili sin carne</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 15 min
+                                                            </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Dinner2} roundedCircle />
+                                                        </Col>
+                                                    </Row>
+                                            </Card.Body>
+                                        </Card>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div>
+                            <Card border="success">
+                                <Card.Body>
+                                    <Card.Title className="text-secondary">13.02.2020</Card.Title>
                                     <Card.Text>
                                         <Card border="success">
                                             <Card.Body>
@@ -259,19 +231,14 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Healthy chocolate orange scones</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 50 min
+                                                            </Card.Text>
                                                         </Col>
                                                         <Col>
                                                             <Image src={Breakfast2} roundedCircle />
                                                         </Col>
                                                     </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 50 min
-                                                            </Card.Text>
-                                                        </Col>
-                                                    </Row>
-
                                             </Card.Body>
                                         </Card>
                                         <p>
@@ -282,16 +249,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Vegan Mexican Chopped Salad with Avocado Dressing</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 85 min
+                                                            </Card.Text>
                                                         </Col>
                                                         <Col>
                                                             <Image src={Lunch1} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 1h 25 min
-                                                            </Card.Text>
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -303,16 +266,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Hasselback potatoes with creamy spinach and ramps sauce</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 75 min
+                                                            </Card.Text>
                                                         </Col>
                                                         <Col>
                                                             <Image src={Dinner3} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 1 h 15 min
-                                                            </Card.Text>
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -331,16 +290,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Lentil Banana Protein Pancakes</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Breakfast3} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 15 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Breakfast3} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -352,16 +307,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Vegan Curry-Spiced Sweet Potato & Wild Rice Burgers</Card.Title>
+                                                            <Card.Text className="text-secondary">
+                                                                Time to make: 75 min
+                                                            </Card.Text>
                                                         </Col>
                                                         <Col>
                                                             <Image src={Lunch4} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
-                                                            <Card.Text className="text-secondary">
-                                                                Time to make: 1h 15 min
-                                                            </Card.Text>
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -373,16 +324,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Coconut curry noodle bowl</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Dinner4} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 15 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Dinner4} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -401,16 +348,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Tofu Breakfast Bowl</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Breakfast4} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 15 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Breakfast4} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -422,16 +365,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Gwyneth Paltrow's Singapore Rice Noodles</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Lunch5} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 25 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Lunch5} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -443,16 +382,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Ratatouille Casserole</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Dinner5} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 30 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Dinner5} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -471,16 +406,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Green protein power breakfast smoothie</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Breakfast5} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 10 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Breakfast5} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -492,16 +423,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Quick Margherita Naan Pizza</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Lunch6} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 20 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Lunch6} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -513,16 +440,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Sweet onion tarts</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Dinner6} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 45 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Dinner6} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -541,16 +464,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Coconut & banana pancakes</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Breakfast6} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 25 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Breakfast6} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -562,16 +481,12 @@ export class Menu extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title className="text-secondary">Warm Pasta Salad</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Lunch7} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text className="text-secondary">
                                                                 Time to make: 50 min
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Lunch7} roundedCircle />
                                                         </Col>
                                                     </Row>
                                             </Card.Body>
@@ -583,16 +498,12 @@ export class Menu extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title className="text-secondary">Vegetarian meatballs</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Dinner7} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text className="text-secondary">
                                                             Time to make: 30 min
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Dinner7} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Card.Body>

@@ -101,16 +101,12 @@ export class ChosenDiet extends React.Component {
                                             <Row>
                                                 <Col>
                                                     <Card.Title>Chive waffles with maple & soy mushrooms</Card.Title>
-                                                </Col>
-                                                <Col>
-                                                    <Image src={Breakfast1} roundedCircle />
-                                                </Col>
-                                            </Row>
-                                            <Row>
-                                                <Col>
                                                     <Card.Text>
                                                         <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                     </Card.Text>
+                                                </Col>
+                                                <Col>
+                                                    <Image src={Breakfast1} roundedCircle />
                                                 </Col>
                                             </Row>
                                         </Container>
@@ -122,16 +118,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Homemade Roasted Tomato Basil Soup</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Lunch3} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">85 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Lunch3} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -143,16 +135,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Buffalo Cauliflower Wings With Cashew Ranch (GF)</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Dinner1} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">50 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Dinner1} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -171,16 +159,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Vegan sabich sandwich</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Lunch2} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Lunch2} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -192,16 +176,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Lentil stroganoff (Oil-free, GF)</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Strog} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Strog} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -213,16 +193,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Chili sin carne</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Dinner2} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Dinner2} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -241,16 +217,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Healthy chocolate orange scones</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Breakfast2} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">50 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Breakfast2} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -262,16 +234,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Vegan Mexican Chopped Salad with Avocado Dressing</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Lunch1} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">85 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Lunch1} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -283,16 +251,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Hasselback potatoes with creamy spinach and ramps sauce</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Dinner3} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">75 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Dinner3} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -311,16 +275,12 @@ export class ChosenDiet extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title>Lentil Banana Protein Pancakes</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Breakfast3} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text>
                                                                 <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Breakfast3} roundedCircle />
                                                         </Col>
                                                     </Row>
                                                 </Container>
@@ -332,16 +292,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Vegan Curry-Spiced Sweet Potato & Wild Rice Burgers</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Lunch4} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">75 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Lunch4} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -353,16 +309,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Coconut curry noodle bowl</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Dinner4} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Dinner4} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -381,16 +333,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Tofu Breakfast Bowl</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Breakfast4} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">15 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Breakfast4} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -402,16 +350,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Gwyneth Paltrow's Singapore Rice Noodles</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Lunch5} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">25 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Lunch5} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -423,16 +367,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Ratatouille Casserole</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Dinner5} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">30 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Dinner5} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -451,16 +391,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Green protein power breakfast smoothie</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Breakfast5} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">10 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Breakfast5} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -472,16 +408,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Quick Margherita Naan Pizza</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Lunch6} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">20 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Lunch6} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -493,16 +425,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Sweet onion tarts</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Dinner6} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">45 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Dinner6} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -521,16 +449,12 @@ export class ChosenDiet extends React.Component {
                                                     <Row>
                                                         <Col>
                                                             <Card.Title>Coconut & banana pancakes</Card.Title>
-                                                        </Col>
-                                                        <Col>
-                                                            <Image src={Breakfast6} roundedCircle />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row>
-                                                        <Col>
                                                             <Card.Text>
                                                                 <h5><Badge variant="success">25 minutes</Badge>{' '}</h5>
                                                             </Card.Text>
+                                                        </Col>
+                                                        <Col>
+                                                            <Image src={Breakfast6} roundedCircle />
                                                         </Col>
                                                     </Row>
                                                 </Container>
@@ -542,16 +466,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Warm Pasta Salad</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Lunch7} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">50 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Lunch7} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
@@ -563,16 +483,12 @@ export class ChosenDiet extends React.Component {
                                                 <Row>
                                                     <Col>
                                                         <Card.Title>Vegetarian meatballs)</Card.Title>
-                                                    </Col>
-                                                    <Col>
-                                                        <Image src={Dinner7} roundedCircle />
-                                                    </Col>
-                                                </Row>
-                                                <Row>
-                                                    <Col>
                                                         <Card.Text>
                                                             <h5><Badge variant="success">30 minutes</Badge>{' '}</h5>
                                                         </Card.Text>
+                                                    </Col>
+                                                    <Col>
+                                                        <Image src={Dinner7} roundedCircle />
                                                     </Col>
                                                 </Row>
                                             </Container>
