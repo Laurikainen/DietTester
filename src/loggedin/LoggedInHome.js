@@ -117,7 +117,7 @@ export class LoggedInHome extends React.Component {
                         </Card>
                         <Card>
                             <Card.Body>
-                                <Card.Title>Go paleo</Card.Title>
+                                <Card.Title>Paleo</Card.Title>
                                 <hr/>
                                 <Card.Text className="text-secondary">
                                     A paleo diet is a dietary plan based on foods similar to what might have been
