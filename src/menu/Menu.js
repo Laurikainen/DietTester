@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
 import './Menu.css'
 
@@ -47,9 +46,11 @@ export class Menu extends React.Component {
                     </h1>
                     <Card border="success">
                         <Card.Body>
-                            <Card.Title className="text-secondary">Fact about being a vegan</Card.Title>
+                            <Card.Title className="text-secondary">Fact about veganism</Card.Title>
                             <Card.Text className="text-secondary">
-                                The fact
+                                Switching to a diet centered around plants can yield significant performance advantages,
+                                providing optimal fuel, increasing blood flow, making muscles more efficient,
+                                and speeding recovery by lowering inflammation.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -514,13 +515,13 @@ export class Menu extends React.Component {
                     </Carousel>
 
                     <p>
-                        <Button href="./shopping-list" variant="outline-info" size="lg" block>Sync my meal plan with calendar</Button>
+                        <Button href="./shopping-list" variant="outline-warning" size="lg" block>Sync my meal plan with calendar</Button>
                     </p>
                     <p>
                         <Button href="./shopping-list" variant="outline-success" size="lg" block>Get my shopping list</Button>
                     </p>
                     <p>
-                        <Button href="./logged-in-home" variant="outline-danger" size="lg" block>Cancel</Button>
+                        <Button href="./logged-in-home" variant="outline-danger" size="lg" block>Choose another plan</Button>
                     </p>
                 </div>
             </div>
