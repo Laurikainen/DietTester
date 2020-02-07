@@ -457,7 +457,7 @@ export class ShoppingList extends React.Component {
                         <Button variant="outline-warning" size="lg" block>Send to Phone</Button>
                     </p>
                     <p>
-                        <Button  href="./my-diet" variant="outline-success" size="lg" block>DONE</Button>
+                        <Button  href="./my-diet" variant="outline-success" size="lg" block>Confirm my 7-day meal plan</Button>
                     </p>
                     <br/>
                     <br/>

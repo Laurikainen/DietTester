@@ -2,7 +2,7 @@ import * as React from "react";
 import './Recipe.css'
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
+import NavBarLoggedIn from "../navbarloggedin/NavBarWithShoppingList";
 import Strog from "../resources/lentil-stroganoff.jpg"
 import {CardGroup, Container} from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";

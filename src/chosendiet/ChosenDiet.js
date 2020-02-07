@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './ChosenDiet.css'
 
-import NavBarLoggedIn from "../navbarloggedin/NavBarLoggedIn";
+import NavBarLoggedIn from "../navbarloggedin/NavBarWithShoppingList";
 
 import Breakfast1 from "../resources/breakfast1.png"
 import Strog from "../resources/lentil-stroganoff.jpg"
@@ -498,6 +498,9 @@ export class ChosenDiet extends React.Component {
                             </Card>
                         </div>
                     </Carousel>
+                    <p>
+                        <Button href="./shopping-list" variant="outline-danger" size="lg" block>Back to shopping list</Button>
+                    </p>
                 </div>
             </div>
         );
