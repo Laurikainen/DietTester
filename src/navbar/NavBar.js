@@ -8,7 +8,7 @@ export class NavBar extends React.Component {
             <div>
                 <header>
                     <Navbar bg="dark" variant="dark" expand="lg">
-                        <Navbar.Brand href="/">Diet Tester</Navbar.Brand>
+                        <Navbar.Brand href="/">Dietster</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">
