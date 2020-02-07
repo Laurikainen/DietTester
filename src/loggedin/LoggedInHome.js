@@ -15,38 +15,7 @@ export class LoggedInHome extends React.Component {
                         Pick a new diet to try
                     </h1>
                     <CardDeck>
-                        <Card>
-                            <Card.Body>
-                                <Card.Title>Vegan</Card.Title>
-                                <hr/>
-                                <Card.Text className="text-secondary">
-                                    A vegan diet totally eliminates all animal products.
-                                    Recent studies found that a plant-based diet can reduce your chances of certain
-                                    cancers and of developing type 2 diabetes. A vegan diet can also reduce blood
-                                    pressure levels and lower cholesterol!
-                                </Card.Text>
 
-                            </Card.Body>
-                            <Card.Footer>
-                                <Button href="./menu" variant="outline-success" size="lg">Go
-                                    vegan</Button>
-                            </Card.Footer>
-                        </Card>
-                        <Card>
-                            <Card.Body>
-                                <Card.Title>Vegetarian</Card.Title>
-                                <hr/>
-                                <Card.Text className="text-secondary">
-                                    Vegetarians abstain from the consumption of meat. Unlike vegans, dairy
-                                    products and eggs are allowed.
-                                    A well-planned vegetarian diet is healthy, nutritionally adequate, and may be
-                                    beneficial in the prevention and treatment of certain diseases.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <Button variant="outline-success" size="lg" disabled>Go vegetarian</Button>
-                            </Card.Footer>
-                        </Card>
                         <Card>
                             <Card.Body>
                                 <Card.Title>Ketogenic</Card.Title>
@@ -66,6 +35,41 @@ export class LoggedInHome extends React.Component {
                                 <Button variant="outline-success" size="lg" disabled>Go ketogenic</Button>
                             </Card.Footer>
                         </Card>
+
+                        <Card>
+                            <Card.Body>
+                                <Card.Title>Vegetarian</Card.Title>
+                                <hr/>
+                                <Card.Text className="text-secondary">
+                                    Vegetarians abstain from the consumption of meat. Unlike vegans, dairy
+                                    products and eggs are allowed.
+                                    A well-planned vegetarian diet is healthy, nutritionally adequate, and may be
+                                    beneficial in the prevention and treatment of certain diseases.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <Button variant="outline-success" size="lg" disabled>Go vegetarian</Button>
+                            </Card.Footer>
+                        </Card>
+
+                        <Card>
+                            <Card.Body>
+                                <Card.Title>Vegan</Card.Title>
+                                <hr/>
+                                <Card.Text className="text-secondary">
+                                    A vegan diet totally eliminates all animal products.
+                                    Recent studies found that a plant-based diet can reduce your chances of certain
+                                    cancers and of developing type 2 diabetes. A vegan diet can also reduce blood
+                                    pressure levels and lower cholesterol!
+                                </Card.Text>
+
+                            </Card.Body>
+                            <Card.Footer>
+                                <Button href="./menu" variant="outline-success" size="lg">Go
+                                    vegan</Button>
+                            </Card.Footer>
+                        </Card>
+
                     </CardDeck>
 
                     <hr/>
@@ -117,7 +121,7 @@ export class LoggedInHome extends React.Component {
                         </Card>
                         <Card>
                             <Card.Body>
-                                <Card.Title>Go paleo</Card.Title>
+                                <Card.Title>Paleo</Card.Title>
                                 <hr/>
                                 <Card.Text className="text-secondary">
                                     A paleo diet is a dietary plan based on foods similar to what might have been
